@@ -1,10 +1,3 @@
-const mysql = require('mysql')
+const mongoose = require("mongoose");
 
-const connection= mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    database: 'restfulapi_v1',
-    // multipleStatements: 'true'
-})
-
-module.exports = connection
+module.exports = mongoose;
