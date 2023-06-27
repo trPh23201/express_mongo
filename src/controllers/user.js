@@ -1,10 +1,4 @@
 const db = require("../configs/db");
-const {
-  queryWhere,
-  queryLimit,
-  queryStartEnd,
-  querySort,
-} = require("../utils/userQuery");
 
 const userController = {
   //GET /user
